@@ -1,62 +1,86 @@
 # Minal Sadiq | Data Scientist & AI Engineer Portfolio
 
-A responsive personal portfolio website built with HTML, Tailwind CSS, and vanilla JavaScript — showcasing data science and AI projects, tech stack, and contact information.
+A modern and responsive personal portfolio website built to showcase my work, skills, projects, and professional profile in **Data Science and Artificial Intelligence**.
 
-🔗 **Live Demo:** _(add your deployed link here, e.g. Netlify/Vercel URL)_
-
-## ✨ Features
-
-- Fully responsive design (mobile, tablet, desktop)
-- 🌙 **Dark / Light mode toggle** — switch themes from the navbar (sun/moon icon), with the choice saved and remembered on your next visit
-- Smooth scroll animations powered by AOS
-- Glassmorphism UI with gradient accents
-- Working contact form (via FormSubmit)
-- Floating WhatsApp quick-chat button
-- Project showcase with live demo & GitHub links
-
-## 🛠️ Built With
-
-- HTML5
-- [Tailwind CSS](https://tailwindcss.com/) (CDN)
-- Vanilla JavaScript
-- [Font Awesome](https://fontawesome.com/) Icons
-- [AOS](https://michalsnik.github.io/aos/) (Animate On Scroll)
-- [FormSubmit](https://formsubmit.co/) for the contact form
-
-## 📁 Project Structure
-
-```
-Minal Sadiq Portfolio/
-├── index.html      # Main page markup
-├── style.css        # Custom styles (light & dark themes)
-├── script.js         # Navbar, theme toggle, form handling, AOS init
-├── minu.jpeg         # Profile photo
-└── README.md
-```
-
-## 🚀 Getting Started
-
-1. Clone the repository
-   ```bash
-   git clone https://github.com/<your-username>/<repo-name>.git
-   ```
-2. Open `index.html` in your browser — no build step or dependencies required.
-
-## 🖥️ Featured Projects
-
-| Project | Description | Links |
-|---|---|---|
-| CardioPulse AI | ML web app for cardiovascular health risk prediction | [Code](https://github.com/minalsadiq/Minal-AI-CardioPulse) · [Live Demo](https://minal-ai-cardiopulse-9nofl4lxdqtf2vmmqexebg.streamlit.app/) |
-| Apple Disease Detection using CNN | Deep learning CNN for classifying apple leaf diseases | [Code](https://github.com/minalsadiq/Apple-Disease-Detection-using-CNN) |
-| Telco Customer Churn Analytics | Predictive analytics dashboard for customer churn | [Code](https://github.com/minalsadiq/Telco-Customer-Churn-Predictive-Analytics) · [Live Demo](https://telco-customer-churn-predictive-analytics-c8oyhjvenuvrphqej6xd.streamlit.app/) |
-| Marketing Campaign Response Modelling | ML model predicting customer response to marketing campaigns | [Code](https://github.com/minalsadiq/Marketing-Campaign-Response-Modelling) · [Live Demo](https://marketing-campaign-response-modelling-5yyltmwsuofq88dgr9mwwd.streamlit.app/) |
-
-## 📬 Contact
-
-- LinkedIn: [minal-sadiq](https://www.linkedin.com/in/minal-sadiq-4994b9372/)
-- WhatsApp: [+92 309 1415861](https://wa.me/923091415861)
-- Email: minalsadiq.ai@gmail.com
+🔗 **Live Demo:** *Add your deployed website link here*
 
 ---
 
-⭐ If you like this portfolio, feel free to star the repo!
+## ✨ Features
+
+* Fully responsive design for desktop, tablet, and mobile
+* 🌙 Dark / Light mode with saved theme preference
+* Smooth scrolling and scroll animations
+* Modern glassmorphism-style UI with gradient accents
+* Interactive navigation
+* Project cards with GitHub and live demo links
+* Working contact form using FormSubmit
+* Floating WhatsApp contact button
+* Clean and user-friendly interface
+
+---
+
+## 🛠️ Built With
+
+* **HTML5** Website structure
+* **Tailwind CSS** Responsive styling and layout
+* **Vanilla JavaScript** Interactions and functionality
+* **Font Awesome** Icons
+* **AOS** Scroll animations
+* **FormSubmit** Contact form handling
+
+---
+
+## 📁 Project Structure
+
+```text
+Minal Sadiq Portfolio/
+├── index.html
+├── style.css
+├── script.js
+├── minu.jpeg
+└── README.md
+```
+
+---
+
+## 🚀 Getting Started
+
+No build tools or additional dependencies are required.
+
+### Clone the repository
+
+```bash
+git clone https://github.com/minalsadiq/<repository-name>.git
+```
+
+### Run the website
+
+Simply open `index.html` in your browser.
+
+---
+
+## 📱 Responsive Design
+
+The website is optimized for different screen sizes, providing a consistent experience across:
+
+* Desktop
+* Tablet
+* Mobile
+
+---
+
+## 🌐 Connect With Me
+
+* **LinkedIn:** [Minal Sadiq](https://www.linkedin.com/in/minal-sadiq-4994b9372/)
+* **GitHub:** [minalsadiq](https://github.com/minalsadiq)
+* **Email:** [minalsadiq.ai@gmail.com](mailto:minalsadiq.ai@gmail.com)
+* **WhatsApp:** [+92 309 1415861](https://wa.me/923091415861)
+
+---
+
+⭐ If you like the portfolio, feel free to star the repository!
+
+<p align="center">
+  © 2026 Minal Sadiq
+</p>
