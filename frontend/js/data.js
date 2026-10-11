@@ -11,7 +11,7 @@ const D = {
 
   // Paste your Google Apps Script Web App URL here (see docs/BACKEND_SETUP.md).
   // This URL is public by design; never put passwords or API keys in this file.
-  contactEndpoint: "",
+  contactEndpoint: "https://script.google.com/macros/s/AKfycbyN8VxZXkyRpeno1mGpo210MkMDPfdzDeszdHpczXy6RilxcKSN5v8cVwlWT6vLSCk/exec",
 
   roles: ["Data Scientist", "AI Engineer", "Machine Learning Engineer"],
   intro: "Data Science and AI professional specializing in machine learning, deep learning, predictive analytics, computer vision and interactive Streamlit applications. I turn complex data into clear, usable intelligence.",
