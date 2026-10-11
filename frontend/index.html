@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Minal Sadiq | Data Scientist &amp; AI Engineer</title>
+  <meta name="description" content="Portfolio of Minal Sadiq, Data Scientist and AI Engineer: machine learning, deep learning, computer vision and Streamlit apps.">
+  <meta name="theme-color" content="#04070f">
+  <meta property="og:title" content="Minal Sadiq | Data Scientist & AI Engineer">
+  <meta property="og:description" content="Machine learning, deep learning and AI projects by Minal Sadiq.">
+
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/icons/favicon-192.png">
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600&family=Nunito+Sans:wght@400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/effects.js"></script>
+</head>
+<body>
+  <canvas id="fx" aria-hidden="true"></canvas>
+  <div id="bar"></div>
+
+  <div id="intro" role="presentation">
+    <div class="ring"><img src="assets/images/minal.jpg" alt=""></div>
+    <h1><span data-k="first"></span> <span class="ac" data-k="last"></span></h1>
+    <p data-k="role"></p>
+    <div class="load"><i></i></div>
+  </div>
+
+  <div id="top"><span data-k="name"></span><button id="mb" aria-label="Open menu">☰</button></div>
+
+  <aside id="sb">
+    <img class="av" src="assets/images/minal.jpg" alt="Minal Sadiq">
+    <h3 data-k="name"></h3>
+    <small data-k="role"></small>
+    <nav>
+      <a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a>
+      <a href="#resume">Resume</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
+    </nav>
+    <div class="soc">
+      <a data-l="github" target="_blank" rel="noopener">GitHub</a>
+      <a data-l="linkedin" target="_blank" rel="noopener">LinkedIn</a>
+      <a data-l="mail">Email</a>
+    </div>
+  </aside>
+
+  <main>
+    <section id="home" class="hero">
+      <h1 class="name">Minal Sadiq</h1>
+      <span class="name-line" aria-hidden="true"><i></i></span>
+      <div class="type" id="ty" aria-live="off"></div>
+      <a class="down" href="#about" aria-label="Scroll to About"><span></span></a>
+    </section>
+
+    <section id="about">
+      <h2 class="title rv">About</h2>
+      <div class="about">
+        <div class="shot rv"><img src="assets/images/minal.jpg" alt="Portrait of Minal Sadiq"></div>
+        <div class="rv">
+          <p class="lead" data-k="intro"></p>
+          <p class="muted" data-k="about"></p>
+          <div class="stats" id="st"></div>
+          <div class="btns">
+            <a class="btn p" href="#projects">View projects</a>
+            <a class="btn" data-l="resume" target="_blank" rel="noopener">View resume</a>
+            <a class="btn" href="#contact">Contact me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2 class="title rv">Skills</h2>
+      <div class="mq"><div id="m0"></div></div>
+      <div class="mq r"><div id="m1"></div></div>
+      <div class="mq"><div id="m2"></div></div>
+    </section>
+
+    <section id="resume">
+      <h2 class="title rv">Resume</h2>
+      <div class="btns c rv">
+        <a class="btn p" data-l="resume" target="_blank" rel="noopener">Open resume (PDF)</a>
+        <a class="btn" data-l="resume" download="Minal_Sadiq_Resume.pdf">Download</a>
+      </div>
+      <div class="tl" id="tl"></div>
+      <div class="certs rv" id="ce"></div>
+    </section>
+
+    <section id="projects">
+      <h2 class="title rv">Projects</h2>
+      <div class="fl" id="fl"></div>
+      <div class="pg" id="pg"></div>
+      <div class="more rv"><h3>More projects</h3><div class="tg" id="mo"></div></div>
+    </section>
+
+    <section id="contact">
+      <h2 class="title rv">Contact</h2>
+      <div class="ct">
+        <div class="ci rv">
+          <a data-l="github" target="_blank" rel="noopener"><small>GitHub</small>github.com/minalsadiq</a>
+          <a data-l="linkedin" target="_blank" rel="noopener"><small>LinkedIn</small>minal-sadiq-4994b9372</a>
+          <a data-l="mail"><small>Email</small><span data-k="email"></span></a>
+          <a data-l="wa" target="_blank" rel="noopener"><small>WhatsApp</small><span data-k="phone"></span></a>
+        </div>
+        <form id="f" class="rv" novalidate>
+          <input id="fn" name="name" placeholder="Your name" aria-label="Your name" maxlength="80" autocomplete="name" required>
+          <input id="fe" name="email" type="email" placeholder="Your email" aria-label="Your email" maxlength="254" autocomplete="email" required>
+          <input id="fs" name="subject" placeholder="Subject" aria-label="Subject" maxlength="150" required>
+          <textarea id="fm" name="message" rows="4" placeholder="Message" aria-label="Message" maxlength="2000" required></textarea>
+          <div class="hp" aria-hidden="true"><label>Leave this field empty<input id="fw" name="website" tabindex="-1" autocomplete="off"></label></div>
+          <button id="fbtn" type="submit"><span>Send message</span></button>
+          <p id="fstat" class="fstat" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <footer>© 2026 Minal Sadiq. All rights reserved.</footer>
+  </main>
+
+  <button id="toTop" class="to-top" type="button" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 15l7-7 7 7"/></svg>
+  </button>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/contact.js"></script>
+</body>
+</html>
