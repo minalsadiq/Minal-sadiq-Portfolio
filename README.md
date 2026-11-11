@@ -1,4 +1,4 @@
-# Minal Sadiq | Data Scientist & AI Engineer
+# Minaal Sadiq | Data Scientist & AI Engineer
 
 <p align="center">
   <strong>Data Science • Machine Learning • Artificial Intelligence</strong>
@@ -289,7 +289,7 @@ Your feedback and suggestions are always welcome.
 
 <p align="center">
 
-### © 2026 Minal Sadiq
+### © 2026 Minaal Sadiq
 
 <strong>Data Scientist | AI Engineer | Machine Learning Enthusiast</strong>
 
